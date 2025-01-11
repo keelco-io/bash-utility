@@ -1,0 +1,75 @@
+array:
+  help: Add bash-utility array (https://labbots.github.io/bash-utility/).
+  files:
+    - source: src/array.sh
+      target: "%{user_lib_dir}/bash_utility.array.%{user_ext}"
+check:
+  help: Add bash-utility check (https://labbots.github.io/bash-utility/).
+  files:
+    - source: src/check.sh
+      target: "%{user_lib_dir}/bash_utility.check.%{user_ext}"
+collection:
+  help: Add bash-utility collection (https://labbots.github.io/bash-utility/).
+  files:
+    - source: src/collection.sh
+      target: "%{user_lib_dir}/bash_utility.collection.%{user_ext}"
+date:
+  help: Add bash-utility date (https://labbots.github.io/bash-utility/).
+  files:
+    - source: src/date.sh
+      target: "%{user_lib_dir}/bash_utility.date.%{user_ext}"
+debug:
+  help: Add bash-utility debug (https://labbots.github.io/bash-utility/).
+  files:
+    - source: src/debug.sh
+      target: "%{user_lib_dir}/bash_utility.debug.%{user_ext}"
+file:
+  help: Add bash-utility file (https://labbots.github.io/bash-utility/).
+  files:
+    - source: src/file.sh
+      target: "%{user_lib_dir}/bash_utility.file.%{user_ext}"
+format:
+  help: Add bash-utility format (https://labbots.github.io/bash-utility/).
+  files:
+    - source: src/format.sh
+      target: "%{user_lib_dir}/bash_utility.format.%{user_ext}"
+interaction:
+  help: Add bash-utility interaction (https://labbots.github.io/bash-utility/).
+  files:
+    - source: src/interaction.sh
+      target: "%{user_lib_dir}/bash_utility.interaction.%{user_ext}"
+json:
+  help: Add bash-utility json (https://labbots.github.io/bash-utility/).
+  files:
+    - source: src/json.sh
+      target: "%{user_lib_dir}/bash_utility.json.%{user_ext}"
+misc:
+  help: Add bash-utility misc (https://labbots.github.io/bash-utility/).
+  files:
+    - source: src/misc.sh
+      target: "%{user_lib_dir}/bash_utility.misc.%{user_ext}"
+os:
+  help: Add bash-utility os (https://labbots.github.io/bash-utility/).
+  files:
+    - source: src/os.sh
+      target: "%{user_lib_dir}/bash_utility.os.%{user_ext}"
+string:
+  help: Add bash-utility string (https://labbots.github.io/bash-utility/).
+  files:
+    - source: src/string.sh
+      target: "%{user_lib_dir}/bash_utility.string.%{user_ext}"
+terminal:
+  help: Add bash-utility terminal (https://labbots.github.io/bash-utility/).
+  files:
+    - source: src/terminal.sh
+      target: "%{user_lib_dir}/bash_utility.terminal.%{user_ext}"
+validation:
+  help: Add bash-utility validation (https://labbots.github.io/bash-utility/).
+  files:
+    - source: src/validation.sh
+      target: "%{user_lib_dir}/bash_utility.validation.%{user_ext}"
+variable:
+  help: Add bash-utility variable (https://labbots.github.io/bash-utility/).
+  files:
+    - source: src/variable.sh
+      target: "%{user_lib_dir}/bash_utility.variable.%{user_ext}"
